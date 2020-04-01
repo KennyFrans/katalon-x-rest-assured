@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyStatusAndData</name>
+   <name>CreateBooking</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e099aac4-4ca6-477e-93b9-96af2d97e8cf</testCaseGuid>
+   <testCaseGuid>30b94622-c370-4a8c-a090-7f7a79d99d66</testCaseGuid>
 </TestCaseEntity>

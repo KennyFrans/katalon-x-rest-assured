@@ -18,7 +18,7 @@ actualCheckOut = response.jsonPath().getString("bookingdates.checkout")
 
 Assert.assertEquals(response.getStatusCode(), 200, "Not same!")
 
-softAssert.assertEquals(actualFirstName, "ese", "Not Same!")
+softAssert.assertEquals(actualFirstName, "Susan", "Not Same!")
 
 softAssert.assertEquals(actualLastName, "Wilson", "Not Same!")
 
