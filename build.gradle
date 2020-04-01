@@ -8,9 +8,9 @@ repositories {
 }
 
 dependencies {
-  // sample dependencies
+  
   // rest-assured
-  // compile 'io.rest-assured:rest-assured:3.2.0'
+   	compile 'io.rest-assured:rest-assured:4.3.0'
   // JsonPath
   // compile 'io.rest-assured:json-path:3.2.0'
   // XmlPath

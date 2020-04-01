@@ -3,9 +3,10 @@
    <description></description>
    <name>katalon-x-rest-assured</name>
    <tag></tag>
-   <UUID>7c885203-5e91-43e6-af96-18e0cb4d22ca</UUID>
+   <UUID>227a1599-df50-4703-98c3-3a50213cd3fd</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/home/azzam/git/katalon-x-rest-assured/katalon-x-rest-assured.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
