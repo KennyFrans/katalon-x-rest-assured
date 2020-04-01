@@ -35,5 +35,31 @@ class helper {
 				
 		return response
 	}
+	
+	@Keyword
+	public static Response updateBooking(int bookingID, String firstName, String lastName, int totalPrice, boolean depositPaid, String checkIn, String checkOut, String additionalNeeds) {
+		//Declare JSON
+		JSONObject body = new JSONObject()
+		JSONObject bookingdates = new JSONObject()
+		
+		//Put data into body
+		body.put("firstname", firstName)
+		body.put("lastname", lastName)
+		body.put("totalprice", totalPrice)
+		body.put("depositpaid", depositPaid)
+		bookingdates.put("checkin", checkIn)
+		bookingdates.put("checkout", checkOut)
+		body.put("bookingdates", bookingdates)
+		body.put("additionalneeds", additionalNeeds)
+		
+		//Response from API
+		Response response = RestAssured.given().
+				auth().preemptive().basic("admin", "password123").
+				contentType(ContentType.JSON).
+				body(body.toString()).
+				put("https://restful-booker.herokuapp.com/booking/"+bookingID)
+				
+		return response
+	}
 
 }
